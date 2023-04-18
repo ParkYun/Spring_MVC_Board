@@ -41,7 +41,7 @@ public class BoardController {
 			model.addAttribute("target", "MemberLoginForm.me");
 			return "success";
 		}
-		
+	//수정 확인용
 		return "board/board_write_form";
 	}
 	
